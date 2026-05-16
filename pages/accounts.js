@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from "react";
 import { getAccounts } from "../lib/api";
 import AccountCard from "../components/AccountCard";
@@ -19,4 +20,4 @@ export default function AccountsPage() {
       </div>
     </div>
   );
-}
+      }
